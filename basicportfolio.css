@@ -21,16 +21,16 @@ a{
   color: inherit;
   font-style: italic;
   text-decoration: none;
+  text-shadow: 1px 1px #f24000;
 }
 
 a:hover{
   font-family: "Century Gothic";
   font-size: inherit;
   letter-spacing: inherit;
-  color: inherit;
   font-style: italic;
   text-decoration: none;
-  text-shadow: 1px 1px #fcfcfc;
+  text-shadow: 1px 1px #f24000;
 }
 
 .container{
