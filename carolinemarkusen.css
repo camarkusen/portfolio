@@ -113,6 +113,20 @@ BLUE: #dbe9e9*/
   overflow: scroll;
 }
 
+.right_square{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100vh;
+  height: 100vh;
+  background-color: #fcfcfc;
+  overflow: hidden;
+}
+
 .container_images{
   display: flex;
   flex-direction: column;
@@ -131,7 +145,7 @@ BLUE: #dbe9e9*/
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 100vh;
   height: 100%;
   padding: 0;
   margin: 0;
@@ -139,6 +153,6 @@ BLUE: #dbe9e9*/
 
 .image{
   width: 100vh;
-  height: 100vh;
+  height: auto;
   overflow: hidden;
 }
