@@ -10,6 +10,17 @@ BLUE: #dbe9e9*/
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  color: #f24000;
+  text-shadow: 1px 1px #fcfcfc;
+  font-weight: bold;
+}
+
 .container{
   display: flex;
 
