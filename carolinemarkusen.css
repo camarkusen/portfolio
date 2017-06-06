@@ -97,7 +97,7 @@ a:hover{
 .menusection{
   display: flex;
   flex-direction: column;
-  padding-bottom: 30px;
+  padding-bottom: 25px;
 }
 
 .menusection:last-child{
@@ -209,6 +209,7 @@ img{
   justify-content: center;
   align-items: center;
   width: 60%;
+
 }
 
 .body{
@@ -224,22 +225,23 @@ img{
 .email{
   font-family: "Century Gothic";
   font-size: 1.5em;
-  letter-spacing: .1em;
+  letter-spacing: .15em;
   text-align: left;
-  color: #011e15;
+  color: #fcfcfc;
   padding-bottom: 30px;
   text-align: center;
+  font-weight: bold;
 }
 
 .downloadresume{
   font-family: "Century Gothic";
-  font-size: 1em;
+  font-size: 1.2em;
   letter-spacing: .1em;
   text-align: left;
   color: #011e15;
   padding-bottom: 30px;
   text-align: center;
-  font-weight: bold;
+
 }
 
 .downloadlink{
@@ -248,8 +250,8 @@ img{
 }
 
 .downloadlink:hover{
-  color: #fcfcfc;
-  text-shadow: 2px 2px #011e15;
-  font-weight: normal;
+  color: inherit;
+  font-weight: bold;
   font-style: italic;
+  text-shadow: none;
 }
