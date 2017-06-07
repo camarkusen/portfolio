@@ -198,7 +198,13 @@ a:hover{
 .image{
   width: 100%;
   height: auto;
+  padding: 50px 0px 50px 0px;
+}
 
+.image-wood{
+  width: 100%;
+  height: auto;
+  padding: 0px;
 }
 
 img{
@@ -223,6 +229,7 @@ img{
   color: #011e15;
   padding-bottom: 30px;
   text-align: center;
+  line-height: 1.2em;
 }
 
 .email{
@@ -242,7 +249,7 @@ img{
   letter-spacing: .15em;
   text-align: left;
   color: #011e15;
-  padding-bottom: 30px;
+
   text-align: center;
 
 }
@@ -250,14 +257,66 @@ img{
 .downloadlink{
   text-decoration: none;
   color: inherit;
-  padding-bottom: 10px;
-}
-
-.downloadlink:last-child{
-  padding-bottom: 0px;
 }
 
 .downloadlink:hover{
+  color: inherit;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: none;
+}
+
+.container_blurb{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fcfcfc;
+}
+
+.information{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.blurb{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.bigblurb{
+  font-family: "Century Gothic";
+  font-size: 2em;
+  letter-spacing: .2em;
+  text-align: center;
+  color: #f24000;
+  width: 70%;
+  padding-top: 5px;
+  line-height: 1.2em;
+}
+
+.weeblurb{
+  font-family: "Century Gothic";
+  font-size: 1em;
+  letter-spacing: .1em;
+  text-align: center;
+  color: #011e15;
+  width: 70%;
+}
+
+.blurblink{
+  text-decoration: none;
+  color: inherit;
+  font-style: italic;
+}
+
+.blurblink:hover{
   color: inherit;
   font-weight: bold;
   font-style: italic;
