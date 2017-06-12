@@ -97,7 +97,7 @@ a:hover{
 .header{
   transform: rotate(90deg);
   position: absolute;
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", sans-serif;
   font-size: 1.2em;
   letter-spacing: .35em;
   text-align: center;
@@ -108,7 +108,7 @@ a:hover{
 }
 
 .header-small{
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", sans-serif;
   font-size: .9em;
   letter-spacing: .35em;
   text-align: center;
@@ -164,7 +164,7 @@ a:hover{
 }
 
 .menuitem{
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", sans-serif;
   font-size: .8em;
   letter-spacing: .2em;
   text-align: left;
@@ -315,7 +315,7 @@ img{
 }
 
 .body{
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", sans-serif;
   font-size: 2em;
   letter-spacing: .2em;
   text-align: left;
@@ -326,7 +326,7 @@ img{
 }
 
 .email{
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", sans-serif;
   font-size: 1.5em;
   letter-spacing: .15em;
   text-align: left;
@@ -337,7 +337,7 @@ img{
 }
 
 .downloadresume{
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", sans-serif;
   font-size: 1.2em;
   letter-spacing: .15em;
   text-align: left;
@@ -407,7 +407,7 @@ img{
 }
 
 .bigblurb{
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", sans-serif;
   font-size: 2em;
   letter-spacing: .2em;
   text-align: center;
@@ -418,7 +418,7 @@ img{
 }
 
 .weeblurb{
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", sans-serif;
   font-size: 1em;
   letter-spacing: .1em;
   text-align: center;
