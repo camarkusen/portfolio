@@ -39,6 +39,12 @@ a:hover{
   height: 100vh;
 }
 
+@media only screen and (max-width: 800px){
+  .container{
+    height: auto;
+  }
+}
+
 .left{
   display: flex;
   width: 30%;
