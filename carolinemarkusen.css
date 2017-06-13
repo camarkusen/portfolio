@@ -48,7 +48,7 @@ a:hover{
 .left{
   display: flex;
   width: 30%;
-  height: 100vh;
+  height: 100%;
   position: absolute;
   left: 0;
   overflow: hidden;
