@@ -99,7 +99,7 @@ a:hover{
   transform: rotate(90deg);
   position: absolute;
   font-family: "Century Gothic", sans-serif;
-  font-size: 1.2em;
+  font-size: 18px;
   letter-spacing: .35em;
   text-align: center;
   font-weight: bold;
@@ -110,7 +110,7 @@ a:hover{
 
 .header-small{
   font-family: "Century Gothic", sans-serif;
-  font-size: .9em;
+  font-size: 15px;
   letter-spacing: .35em;
   text-align: center;
   font-weight: bold;
@@ -166,7 +166,7 @@ a:hover{
 
 .menuitem{
   font-family: "Century Gothic", sans-serif;
-  font-size: .8em;
+  font-size: 13px;
   letter-spacing: .2em;
   text-align: left;
   color: #011e15;
@@ -177,6 +177,7 @@ a:hover{
   .menuitem{
     text-align: center;
     padding-bottom: 20px;
+    font-size: 12px;
   }
   .menusection{
     padding-bottom: 20px;
@@ -257,20 +258,20 @@ a:hover{
 
 .letter{
   font-family: "dubielplainregular";
-  font-size: 13em;
+  font-size: 205px;
   color: #fcfcfc;
   text-shadow: 8px 8px #011e15;
 }
 
 @media only screen and (max-width: 600px){
   .letter{
-    font-size: 10em;
+    font-size: 200px;
   }
 }
 
-@media only screen and (max-width: 330px){
+@media only screen and (max-width: 380px){
   .letter{
-    font-size: 8em;
+    font-size: 150px;
   }
 }
 
@@ -309,7 +310,7 @@ img{
 
 .body{
   font-family: "Century Gothic", sans-serif;
-  font-size: 2em;
+  font-size: 35px;
   letter-spacing: .2em;
   text-align: left;
   color: #011e15;
@@ -320,7 +321,7 @@ img{
 
 .email{
   font-family: "Century Gothic", sans-serif;
-  font-size: 1.5em;
+  font-size: 23px;
   letter-spacing: .15em;
   text-align: left;
   color: #fcfcfc;
@@ -331,7 +332,7 @@ img{
 
 .downloadresume{
   font-family: "Century Gothic", sans-serif;
-  font-size: 1.2em;
+  font-size: 18px;
   letter-spacing: .15em;
   text-align: left;
   color: #011e15;
@@ -401,7 +402,7 @@ img{
 
 .bigblurb{
   font-family: "Century Gothic", sans-serif;
-  font-size: 2em;
+  font-size: 35px;
   letter-spacing: .2em;
   text-align: center;
   color: #f24000;
@@ -412,7 +413,7 @@ img{
 
 .weeblurb{
   font-family: "Century Gothic", sans-serif;
-  font-size: 1em;
+  font-size: 18px;
   letter-spacing: .1em;
   text-align: center;
   color: #011e15;
