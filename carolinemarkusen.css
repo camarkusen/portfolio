@@ -47,7 +47,7 @@ a:hover{
 .container{
   display: flex;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -202,22 +202,11 @@ a:hover{
   }
 }
 
-.right-front{
-  display: flex;
-  width: 70%;
-  height: 100%;
-  position: absolute;
-  right: 0;
-  overflow: hidden;
-  background-color: #f24000;
-}
-
 .right{
   display: flex;
   width: 70%;
   height: 100%;
-  position: fixed;
-  top: 0;
+  position: absolute;
   right: 0;
   overflow: scroll;
 }
