@@ -13,7 +13,18 @@ BLUE: #dbe9e9*/
          url('webfonts/Dubiel-webfont.svg#dubielplainregular') format('svg');
     font-weight: normal;
     font-style: normal;
+}
 
+@font-face{
+  font-family: "Century Gothic";
+  src: url('webfonts/CenturyGothic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "Century Gothic Bold";
+  src: url('webfonts/CenturyGothicBold.ttf') format('truetype');
 }
 
 *{
@@ -102,8 +113,8 @@ a:hover{
 
 .header{
   position: static;
-  font-family: "Century Gothic", sans-serif;
-  font-size: 18px;
+  font-family: "Century Gothic Bold", "Century Gothic", sans-serif;
+  font-size: 20px;
   letter-spacing: .35em;
   text-align: center;
   font-weight: bold;
@@ -116,7 +127,7 @@ a:hover{
 
 
 .header-small{
-  font-family: "Century Gothic", sans-serif;
+  font-family: "Century Gothic Bold", "Century Gothic", sans-serif;
   font-size: 15px;
   letter-spacing: .35em;
   text-align: center;
@@ -327,7 +338,7 @@ img{
 }
 
 .email{
-  font-family: "Century Gothic", sans-serif;
+  font-family: "Century Gothic Bold", "Century Gothic", sans-serif;
   font-size: 23px;
   letter-spacing: .15em;
   text-align: left;
